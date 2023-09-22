@@ -1,18 +1,18 @@
 <html>
 <head> <style> 
 
-body {background-color: #950e64;
-      text-align: center; 
+body {background: #950e64;
+      text-align: center;
 
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: 300px 1fr 1fr 50px; 
-      gap: 2px;}
+     display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         grid-template-rows: 100px 1fr 1fr 50px;
+         gap: 10px;}
 
 p {color: white;
-   border; 2px solid black;
+   border; 3px solid black;
    width: 300px;
-   background-color: black;}
+   background-color: navy;}
 
 img {border; 2 px outset black;} 
 
@@ -22,7 +22,10 @@ div {align-content: center;}
 .header {grid-row-start: 1;
          grid-row-end: 2; 
          grid-column-start: 1;
-         grid-column-end: 4;} 
+         grid-column-end: 4; 
+         border: 6px solid black; 
+         color: white; 
+         font-size: 400p; } 
 
 .text1 { 
 
@@ -49,11 +52,11 @@ div {align-content: center;}
 </style>
 </head>
 
-<title> </title> 
+<title> The Mystery Grid </title> 
 
 <div class="header"> 
-  <h1. 'Which President is This?' </h1>
-
+<h1 onclick = "this.innerHTML = 'Find the Answer at the Bottom!'; this.style='color: white;';" ondblclick = "this.innerHTML = 'Guess the President!'; this.style='color: white;';">Guess the President!</h1>
+  <h1. 'Guess the President!' </h1>
 </div>
 
 <div class="text1">
