@@ -40,16 +40,25 @@ div {align-content: center;}
 }
 
 .image1 {grid-row-start: 2;
-         grid-row-end: 4;
+         grid-row-end: 3;
          grid-column-start: 2;
          grid-column-end: 4;
          background-color: #5C0276; 
          border: 6px solid white; 
          color: white;} 
 
-.image2 {}
+.image2 {grid-row-start: 3;
+         grid-row-end: 3;
+         grid-column start: 2; 
+         grid-column end: 3}
 
-.text2 {} 
+.text2 {grid-row-start: 3; 
+        grid-row-end: 3; 
+        grid-column-start: 1
+        grid-column-end: 1
+        background-color: #5C0276; 
+        border: 6px solid white; 
+        color: white;} 
 
 .image3 {} 
 
@@ -77,14 +86,18 @@ div {align-content: center;}
 </div>
 
 <div class="image1"> 
+<img src="question.png" onclick = "this.src = 'newdeal.jpg';" style ="border: 6px solid white;">
 
 </div>
 
-<div class="image2"> 
+<div class="image2">
+<img src="question.png" onclick = "this.src = '';" style ="border: 6px solid white;">
+
 
 </div>
 
 <div class="text2">
+<h2 onclick = "this.innerHTML = 'Served for 12 years': this.style='color:white;';" ondblclick = "this.innerHTML = '????????????????????????????????????????????????????????'; this.style='color: white;';">????????????????????????????????????????????????????????</h2>
 
 </div>
 
