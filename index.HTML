@@ -9,10 +9,6 @@ body {background: #950e64;
          grid-template-rows: 100px 1fr 1fr 50px;
          gap: 10px;}
 
-p {color: white;
-   border; 3px solid white;
-   width: 300px;
-   background-color: navy;}
 
 img {border; 2 px outset black;} 
 
@@ -24,7 +20,7 @@ div {align-content: center;}
          grid-column-start: 1;
          grid-column-end: 4; 
          border: 6px solid white; 
-         background-color: #5C0276; 
+         background-color: #D6043E; 
          color: white; 
          font-size: 400p; } 
 
@@ -32,7 +28,7 @@ div {align-content: center;}
         grid-row-end: 3;
         grid-column-start: 1;
         grid-column-end: 2; 
-        background-color: #5C0276;
+        background-color: #D6043E;
         border: 6px solid white; 
         color: white;
         font-size: 1000p;}
@@ -42,33 +38,40 @@ div {align-content: center;}
 .image1 {grid-row-start: 2;
          grid-row-end: 3;
          grid-column-start: 2;
-         grid-column-end: 4;
-         background-color: #5C0276; 
+         grid-column-end: 3;
+         background-color: #D6043E; 
          border: 6px solid white; 
          color: white;} 
 
 .image2 {grid-row-start: 3;
-         grid-row-end: 3;
-         grid-column start: 2; 
-         grid-column end: 3}
+         grid-row-end: 4;
+         grid-column start: 1; 
+         grid-column end: 2}
 
 .text2 {grid-row-start: 3; 
-        grid-row-end: 3; 
-        grid-column-start: 1
-        grid-column-end: 1
-        background-color: #5C0276; 
+        grid-row-end: 4; 
+        grid-column-start: 2;
+        grid-column-end: 3;
+        background-color: #D6043E; 
         border: 6px solid white; 
         color: white;} 
 
-.image3 {} 
+.image3 {grid-row-start: 2; 
+         grid-row-end: 4; 
+         grid-column-start 3; 
+         grid-column-end 4;} 
 
-.text3 {} 
+.image4 {grid-row-start: 4; 
+        grid-row-end: 5; 
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: #D6043E; 
+        border: 6px solid white; } 
 
-.image4 {} 
 
 .image5 {}
 
-.text4 {} 
+.text3 {grid-row-start: 4;} 
 
 </style>
 </head>
@@ -91,26 +94,28 @@ div {align-content: center;}
 </div>
 
 <div class="image2">
-<img src="question.png" onclick = "this.src = '';" style ="border: 6px solid white;">
+<img src="question.png" onclick = "this.src = '32.png';" style ="border: 6px solid white;">
 
 
 </div>
 
 <div class="text2">
-<h2 onclick = "this.innerHTML = 'Served for 12 years': this.style='color:white;';" ondblclick = "this.innerHTML = '????????????????????????????????????????????????????????'; this.style='color: white;';">????????????????????????????????????????????????????????</h2>
+<h2 onclick = "this.innerHTML = 'Served for 12 years'; this.style='color: white;';" ondblclick = "this.innerHTML = '????????????????????????????????????????????????????????'; this.style='color: white;';">????????????????????????????????????????????????????????</h2>
 
 </div>
 
 <div class="image3"> 
+<img src= "question.png" onclick = "this.src = 'standing.png';" style ="border: 6px solid white;">
 
 </div>
 
 <div class="text3">
+<h2 onclick = "this.innerHTML = 'Wife did speeches when he had polio'; this.style='color: white;';" ondblclick = "this.innerHTML = '????????????????????????????????????????????????????????'; this.style='color: white;';">????????????????????????????????????????????????????????</h2>
 
 </div>
 
 <div class="image4"> 
-
+<img src= "question.png" onclick = "this.src = 'eleanor speech.jpg';" style ="border: 6px solid white;">
 </div>
 
 <div class="image5"> 
